@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.store {
+  color: #474747;
+  overflow: hidden;
+  text-decoration: none;
+  letter-spacing: .01875rem;
+}
+
+.store h1{
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.store .store-products {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block; /* Display the navigation as inline-block */
+}
+
+.store nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.store nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.store-customer {
+  list-style: none;
+  margin-left: 560px;
+  padding: 0;
+  display: inline-block; /* Display the navigation as inline-block */
+}
+
+.collections {
+  padding: 20px;
+}
+
+.collections-section1 {
+  position: relative;
+  width: 100%;
+}
+
+.collections-section1 video {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.collections-section1-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.collections-section1-text-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.collections-section1-text-overlay a {
+  color: white;
+  font-family: "LeJeuneDeck-Regular", Times, serif;
+  font-size: 0.825em;
+}
+
+footer {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  margin: 5px;
+  padding: 0;
+  display: inline-block; /* Display the navigation as inline-block */
+}
+
+.footer ul li {
+  display: inline;
+  margin: 10px;
+  margin-right: 10px;
+}
+
+.footer ul li a {
+  color: #000000;
+  text-decoration: none;
+}

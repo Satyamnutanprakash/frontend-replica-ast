@@ -1,0 +1,315 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.store {
+  color: #474747;
+  overflow: hidden;
+  text-decoration: none;
+  letter-spacing: .01875rem;
+}
+
+.store h1{
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.store .store-products {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block; /* Display the navigation as inline-block */
+}
+
+.store nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.store nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.store-customer {
+  list-style: none;
+  margin-left: 560px;
+  padding: 0;
+  display: inline-block; /* Display the navigation as inline-block */
+}
+
+.collections {
+  padding: 20px;
+}
+
+.collectionssection1 {
+  position: relative;
+  width: 100%;
+}
+
+.collections-section1 video {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.collections-section1-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.collections-section1-text-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.collections-section1-text-overlay p {
+  font-family: "LeJeuneDeck-Regular", Times, serif;
+  font-size: 1.125em;
+}
+/**
+#section-one{
+  margin-bottom: 20px;
+}
+
+#section-one h2 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+#section-one p {
+  line-height: 1.5;
+}
+*/
+
+.collections-section2 {
+  margin-top: 2px;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url('../images/0523_hp_c02_bg.webp');
+  background-size: cover;
+}
+
+.collections-section2-shop {
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #010101;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.collections-section3-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.collections-section3-msg {
+  width: 300px;
+  background-color: #fff;
+  margin: 0px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.collections-section3-promo {
+  width: 300px;
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.collections-section3-promo img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.collections-section4 {
+  margin-top: 10px;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url('../images/eyewearcln.jpeg');
+  background-size: cover;
+}
+
+.collections-section4-specialshop {
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.collections-section5 {
+  margin-top: 10px;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url('../images/menpolo.jpeg');
+  background-size: cover;
+}
+
+.collections-section5-menpolo {
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.collections-section6 {
+  margin-top: 10px;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url('../images/towel.jpg');
+  background-size: cover;
+}
+
+.collections-section6-polotowel {
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.collections-section7 {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.collections-section7 video {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.collections-section7-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.collections-section7-text-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.collections-section7-text-overlay p {
+  font-family: "LeJeuneDeck-Regular", Times, serif;
+  font-size: 1.125em;
+}
+
+.collections-section8-title {
+  text-align: center;
+}
+
+.collections-section8-coln {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.collections-section8-coln-promo {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.collections-section8-coln-promo img {
+  width: 100%;
+  height: auto;
+}
+
+.collections-section8-coln-promo p{
+  margin-top: 5px;
+}
+
+.load {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #001879;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  margin: 5px;
+  padding: 0;
+  display: inline-block; /* Display the navigation as inline-block */
+}
+
+.footer ul li {
+  display: inline;
+  margin: 10px;
+  margin-right: 10px;
+}
+
+.footer ul li a {
+  color: #000000;
+  text-decoration: none;
+}
